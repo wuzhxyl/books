@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textSize" format="dimension" />
+    <attr name="textColor" format="color" />
+    <attr name="text" format="string" />
+    <attr name="progressIndicatorBackground" format="color" />
+    <attr name="progressIndicatorForeground" format="color" />
+    <attr name="progressIndicatorShowArrow" format="boolean" />
+
+    <declare-styleable name="ExecutingIndicateButton">
+        <attr name="android:clickable" />
+        <attr name="android:background" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+        <attr name="text" />
+        <attr name="progressIndicatorBackground" />
+        <attr name="progressIndicatorForeground" />
+        <attr name="progressIndicatorShowArrow" />
+
+    </declare-styleable>
+
+    <declare-styleable name="DrawableLeftEditText">
+        <attr name="leftDrawable" />
+        <attr name="drawableWidth" />
+        <attr name="drawableHeight" />
+    </declare-styleable>
+</resources>
